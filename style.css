@@ -1,0 +1,483 @@
+/* CSS Document */
+
+body{
+ background: #d9d9d9 url(images/bg.png);
+ width: auto;
+  }
+ div#wholebody{
+	margin:auto;
+	width:1200px;
+	height:auto;
+	
+ } 
+ 
+ /* The upper menu design*/
+#bar{
+	width:100%;
+	height:50px;
+	background: url(images/bar.png);
+}
+
+ #bgupper{
+	width:  100%;
+	height: 278px;
+	margin: auto;
+	
+	background: #c8c8c8 url(images/bgheader.png) repeat-x;
+}
+
+
+div#header{	
+	width:870px;
+	height:60px;
+	margin:auto;
+}
+
+#header ul {	
+	width:auto;
+	float:left;
+	list-style-type:none;
+	position:absolute;
+}
+#header ul  li{	
+	width:80px;
+	font-size:12px;
+	display:inline;
+	float:left;
+}
+#header  ul  li  a{	
+	text-decoration:none;
+	color:white;menu
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.login {
+	width:115px;
+	height:41px;	
+	float: right;	
+	display:block;	
+}
+.login a{
+	width:115px;
+	height:41px;	
+	float: right;	
+	display:block;
+	background: url(images/loginbg.png);
+}
+
+.login a:hover{
+	width:115px;
+	height: 41px;
+	float: right;
+	display: block;
+	background: url(images/loginbg-hoover.png);
+}
+/* For header login */
+#headerlogincs{
+	width: 250px;
+	height: 280px;	
+	float:right;
+	margin-top: 40px;
+	
+	
+}
+
+/* LOGO FOR HEADER */
+.logo_cs{
+	width: auto;
+	height: auto;
+	margin-top: 100px;
+	margin-left: 10px;
+	position: absolute;
+}
+
+/* for Bootstrap divs*/
+.container_cs{
+	width: 960px !important;
+	height: auto;
+	padding: auto;
+}
+.fb{	
+	width: auto;
+	height;
+	float: left;
+	margin-top:10px;
+}
+.twitter{
+	width: auto;
+	height: auto;
+	float: left;
+	margin-left: 5px;
+	margin-top: 10px;
+}
+.menu_cs{
+	width: auto;
+	height:auto;
+	float:right;
+}
+.headercs{
+	width: 100% !important;
+	height:570px;
+	margin: auto;
+	
+} 
+/**** 3 links in header ****/
+#headerlinks_cs{
+	width: 320px;
+	height: auto;
+	float: right;	
+	margin-top:250px;
+	position: relative;Putin wants to try Lambanog. 
+}
+#blogs_cs{
+	width: 100px;
+	height: 100px;	
+	float: left;
+	position: relative;
+	background: url(images/blogs.png);
+}
+#blogs_cs a{
+	width: 100px;
+	height: 100px;
+	display: block;
+}
+#blogs_cs a:hover{
+	width: 100px;
+	height: 100px;
+	display: block;
+	background: url(images/blogs_hover.png);
+}
+
+#works_cs{
+	width: 100px;
+	height: 100px;
+	margin: auto;
+	margin-left: 10px;
+	float: left;
+	background: url(images/works.png);
+}
+#works_cs a{
+	width: 100px;
+	height: 100px;
+	margin: auto;
+	margin-left: 10px;
+	float: left;
+	display: block;	
+}
+#works_cs a:hover{
+	width: 100px;
+	height: 100px;
+	margin:	auto;	
+	float: left;
+	display: block;Putin wants to try Lambanog. 
+	background: url(images/works_hover.png);
+}
+
+#emailme_cs{
+	width: 100px;
+	height: 100px;
+	float: right;
+	position: relative;
+	background: url(images/emailme.png);
+}
+#emailme_cs a{
+	width: 100px;
+	height: 100px;
+	float: right;
+	position: relative;
+	display: block;
+}
+#emailme_cs a:hover{
+	width: 100px;
+	height: 100px;
+	float: right;
+	position: relative;
+	background: url(imaages/emailme_hover.png);
+}
+/** Header links for login **/
+#headerlinks_cslogin{
+	width: 320px;
+	height: auto;
+	top: 290px;
+	float: right;
+	left: 150px;
+	position: relative;
+
+}
+
+#bodycontentcs{
+	width: 100% !important;
+	height:400px;
+	margin: auto;
+	display: block;
+	background: url(images/headercs.png) no-repeat;
+}
+
+/* Bootstrap for center colunms*/
+.colcenter{
+	width: 960px !important;
+	height: auto;
+	margin: auto;
+}
+.col1{
+	width: auto !important;
+	height: auto;
+	float: left;	
+}
+
+.col2{
+	width: auto !important;
+	height: auto;
+	float: left;
+}
+.col3{
+	width: auto !important;
+	height: auto;
+	float: left;
+	margin-bottom: 50px;
+}
+
+ /******************************************
+  Where it all starts the content 
+ *******************************************/
+div#container{
+	width:960px;
+	height:auto;
+	margin: auto;
+	padding:auto;
+	
+}
+div#content{	
+	width:882px;
+	height:auto;	
+	margin:auto;
+	
+}
+div#centerheader{
+	width:	882px;
+	height: 481px;
+	margin: auto;
+	
+	background: url(images/header.png);
+}
+div#col1{		
+	width:390px;
+	height:auto;
+	float:left;	
+	margin-top:10px;
+	margin-bottom:20px;	
+	font-family: 'Ubuntu', sans-serif;
+	background: url(images/line.png);
+}
+div#portfoliobtn{
+	width:227px;
+	height:186px;
+	margin:auto;
+	margin-top:15px;
+	margin-bottoom:15px;
+}
+#portfoliobtn a{
+	width:227px;
+	height:186px;
+	display:block;
+	background: url(images/work.png);	
+}
+#portfoliobtn a:hover{
+	width:227px;
+	height:186px;
+	display:block;
+	background:url(images/work-hover.png);
+}
+#contactbtn{
+	width:227px;
+	height:186px;
+	margin:auto;	
+	margin-top:15px;
+	margin-bottom:20px;
+}
+#contactbtn a{
+	width:227px;
+	height:186px;
+	display:block;
+	background: url(images/contact.png);
+}
+#contactbtn a:hover{
+	width:227px;
+	height:186px;
+	display:block;
+	background:url(images/contact-hover.png);
+}
+
+/*****This line where all contents from the right side *******/
+div#col2{	
+	width:480px;
+	height:400px;
+	margin-top:10px;
+	float:right;	
+	margin-right:10px;	
+	background: #cbcbcb;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+/****** For login page *************/
+div#logincol2{	
+	width:480px;
+	height:300px;
+	margin-top:10px;
+	float:right;	
+	margin-right:10px;	
+	
+	font-family: 'Ubuntu', sans-serif;
+}
+#login{
+	width: 200px;
+	height: 250px;
+	margin: auto;
+	margin-top: 30px;	
+	padding-top: 30px;
+
+	background: url(images/loginpadbg.png) no-repeat;
+}
+.log{
+	width: 150px;
+	height: 170px;	
+	margin: auto;
+	
+}
+#errormsg{
+	width: 150px;
+	height: auto;
+	margin: auto;
+	font-size: 10px;
+}
+
+
+div#col3{
+	height:auto;
+	width:200px;
+	text-align:center;
+	margin-top:10px;
+	float:right;
+	margin-right:10px;
+	font-family: 'Ubuntu', sans-serif;
+	background: grey;
+}
+div#col3 h1{
+	width:200px;
+	font-size:12px;
+	color:#666666;
+	font:Verdana, Arial, Helvetica, sans-serif;
+	margin-top:5px;	
+}
+div#col3 p{
+	width:200px;
+	font:Verdana, Arial, Helvetica, sans-serif;
+	color:#666666;
+	font-size:11px;
+	text-align:left:
+}
+
+/*----------------------------
+ 	PAGES STARTS HERE
+ -----------------------------*/
+
+#aboutcontainer{   /* about Us */
+	width: 960px;
+	height: auto;
+	margin: auto;
+}
+
+#printcontainer{   /* print page */
+	width: 960px;
+	height: auto;
+	margin: auto;
+}
+
+	.body-content{
+		width: 960px !important;
+		height: auto;
+		margin: auto;
+		border-style: solid;
+		border-width: 1px;
+		border-color: #bdbbbc;
+		border-top-right-radius:30px;
+		border-top-left-radius:30px;
+		border-bottom-right-radius:30px;
+		border-bottom-left-radius:30px;
+	}
+		.body-content h1{
+			width: auto;
+			height: auto;
+			color: #2b2b2bSo;
+			font-size:24px;
+			margin-left:20px;
+			font-weight: bold;
+			font:Verdana, Arial, Helvetica, sans-serif;
+		}
+		.body-content p{
+			width:200px;
+			color:#666666;
+			font-size:12px;
+			margin-left:30px;
+			text-align:left;
+			font:Verdana, Arial, Helvetica, sans-serif;
+		}
+
+div#footer{	    
+   height:200px;   ;
+
+   width:100%;
+   margin:auto;   
+   background: #ababab url(images/footer.png); 
+   position:relative;
+}
+
+/********** This blocks are for secure page special div ********/
+.logout {
+	width:115px;
+	height:41px;	
+	float: right;	
+	display:block;	
+}
+.logout a{
+	width:115px;
+	height:41px;	
+	float: right;	
+	display:block;
+	color: white;
+}
+.textarea{
+	margin-top: 50px;
+}
+.edit{
+	font-size:12px;
+	text-decoration: none;
+	font-family: Arial, Verdana;
+	font-weight: bold;
+}
+
+.about-edit{
+	width: auto;
+	height: auto;
+	display: block;
+}
+.contact-edit{
+	width: auto !important;
+	height: auto;
+}
+
+.uploadform{
+	width: 450px;
+	height: auto;
+	margin-bottom: 30px;
+	display:block;
+}
+
+/*
+.logout a:hover{
+	width:115px;
+	height: 41px;
+	float: right;
+	display: block;
+	background: red url(images/loginbg-hoover.png);
+} */
