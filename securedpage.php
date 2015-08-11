@@ -49,7 +49,7 @@ if (isset($_POST['bio'])) {
   mysqli_close($con);
 }
 
-//if user submited from contact
+//if user submited from contact 
 if (isset($_POST['address'])) {
   // sa diri pud
   $con=mysqli_connect("localhost","root","walnutroad47","cebustudio");
@@ -71,10 +71,6 @@ if (isset($_POST['address'])) {
 
   mysqli_close($con);
 }
-
-
-
-
 
 // fetch info and display the content-type
 $con=mysqli_connect("localhost","root","walnutroad47","cebustudio");
@@ -201,7 +197,10 @@ mysqli_close($con);
       </div>
 
       </div>
-           
+      <!-- 
+      comment 
+    -->  
+    <p>Test</p>       
     <div class="container container_cs">
 
       <!-- Main hero unit for a primary marketing message or call to action -->
@@ -225,26 +224,29 @@ mysqli_close($con);
 
                      </div>
 
-                      <div class="span4 col3">
-                                <h2>Upload Works</h2>
-                                <p>To upload file, please select UPLOAD category.</p>
-
-                                  <?php
-                                          if (isset($_SESSION['error']))
-                                          {
-                                              echo "<span id=\"error\"><p>" . $_SESSION['error'] . "</p></span>";
-                                              unset($_SESSION['error']);
-                                          }
-                                  ?>
-
-                                    <form action="upload.php" method="post" enctype="multipart/form-data">
-                                        Select image to upload:
-                                        <input type="hidden" name="MAX_FILE_SIZE" value="100000" />
-                                        <input type="submit" id="submit" value="Upload" />
-                                    </form>
-                      </div>
-
+                     
               </form>
+
+               <div class="span4 col3">
+                        <h2>Upload Works</h2>
+                        <p>To upload file, please select UPLOAD category.</p>
+
+                          <?php
+                                  if (isset($_SESSION['error']))
+                                  {
+                                      echo "<span id=\"error\"><p>" . $_SESSION['error'] . "</p></span>";
+                                      unset($_SESSION['error']);
+                                  }
+                          ?>
+
+                            <form action="upload.php" method="post" enctype="multipart/form-data">
+                                Select image to upload:
+                                <!--input type="hidden" name="MAX_FILE_SIZE" value="100000" /--> 
+                                <input type="file" name="uploadFile">
+                                <input type="submit" id="submit" value="Upload" />
+                            </form>
+              </div>
+
 
       </div> <!-- End of row colcenter --> 
       

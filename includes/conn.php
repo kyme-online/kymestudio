@@ -12,7 +12,7 @@ $username = "root";
 $password = "walnutroad47";
 
 // Name of database
-$database = "db_name";
+$database = "cebustudio";
 
 $conn = mysql_connect($host, $username, $password) or die ("Could not connect");
 $db = mysql_select_db($database, $conn) or die ("Could not select DB");
